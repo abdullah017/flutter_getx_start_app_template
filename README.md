@@ -129,21 +129,22 @@ lib/
 The project leverages several Flutter packages to implement its features efficiently. Here's a breakdown of the primary packages used:
 ```
 
-| Package       | Version       |Purpose|
-| ------------- | ------------- || ------------- |
-|get  | ^4.6.1	  || State management, dependency injection, and routing solution.  | 
-| get_storage | ^2.0.3  || Lightweight key-value storage for simple data persistence.  | 
-| dio  | ^4.0.0  || Powerful HTTP client for making API requests.  | 
-| json_annotation  | ^4.0.1  || Annotations to generate JSON serialization code for models.   | 
-| get_it  | ^7.2.0  || Service locator for dependency injection, managing app-wide dependencies.| 
-| connectivity_plus | ^4.0.1 || 	Detects network connectivity status changes. | 
-| flutter_local_notifications  | ^12.0.4 || Manages local notifications on both Android and iOS.| 
-| logger  | 	^1.2.0  || Provides easy-to-use logging capabilities.  | 
-| equatable  | ^2.0.5  || Simplifies value comparisons, particularly for state management.  | 
-| intl  | ^0.18.1  || Internationalization and localization support.  | 
-| flutter_secure_storage  | 	^8.0.0  || Secure storage for sensitive data like tokens and credentials.  | 
-| build_runner  |^2.1.4  || Automates code generation tasks, such as JSON serialization.  | 
-| json_serializable  | ^6.0.1  || Generates JSON serialization boilerplate code based on model annotations.  | 
+| Package       | Version       | Purpose |
+| ------------- | ------------- | ------------- |
+| get  | ^4.6.1  | State management, dependency injection, and routing solution.  | 
+| get_storage | ^2.0.3  | Lightweight key-value storage for simple data persistence.  | 
+| dio  | ^4.0.0  | Powerful HTTP client for making API requests.  | 
+| json_annotation  | ^4.0.1  | Annotations to generate JSON serialization code for models.   | 
+| get_it  | ^7.2.0  | Service locator for dependency injection, managing app-wide dependencies. | 
+| connectivity_plus | ^4.0.1 | Detects network connectivity status changes. | 
+| flutter_local_notifications  | ^12.0.4 | Manages local notifications on both Android and iOS. | 
+| logger  | ^1.2.0  | Provides easy-to-use logging capabilities.  | 
+| equatable  | ^2.0.5  | Simplifies value comparisons, particularly for state management.  | 
+| intl  | ^0.18.1  | Internationalization and localization support.  | 
+| flutter_secure_storage  | ^8.0.0  | Secure storage for sensitive data like tokens and credentials.  | 
+| build_runner  |^2.1.4  | Automates code generation tasks, such as JSON serialization.  | 
+| json_serializable  | ^6.0.1  | Generates JSON serialization boilerplate code based on model annotations.  |
+
 
 ```
 ## Key Components Explained
