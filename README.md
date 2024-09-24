@@ -257,7 +257,7 @@ This Flutter GetX MVVM Clean Architecture Template is designed to help you build
 
 Feel free to customize and extend this template to fit your specific project needs. Happy coding!
 
-### Contact & Support
+## Contact & Support
 If you encounter any issues or have suggestions for improvements, feel free to open an issue or reach out to the repository maintainer.
 
 **Happy Developing! 🚀**
