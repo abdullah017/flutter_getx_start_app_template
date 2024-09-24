@@ -49,15 +49,7 @@ This template is crafted to help developers, especially juniors, kickstart Flutt
 **Theming:** Supports light and dark themes, allowing easy customization.
 
 
-## Kullanım/Örnekler
 
-```javascript
-import Component from 'benim-projem'
-
-function App() {
-  return <Component />
-}
-```
 
   ## Folder Structure
 A well-organized folder structure is crucial for maintaining a scalable and manageable codebase. Here's an overview of the project's structure:
