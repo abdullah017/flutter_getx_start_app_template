@@ -1,20 +1,32 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'injection_container.dart' as di;
+import 'routes/app_pages.dart';
+import 'core/utils/theme.dart';
+import 'package:get_storage/get_storage.dart';
 
-void main() {
-  runApp(const MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await di.init();
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  final getStorage = GetStorage();
+
+  MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      //home: MyHomePage(),
+    return GetMaterialApp(
+      title: 'GetX MVVM Template',
+      debugShowCheckedModeBanner: false,
+      initialRoute: AppPages.initial,
+      getPages: AppPages.routes,
+      theme: AppTheme.lightTheme,
+      darkTheme: AppTheme.darkTheme,
+      themeMode: ThemeMode.system,
+      // Add translations, locale, etc., if needed
     );
   }
 }
