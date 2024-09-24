@@ -127,6 +127,7 @@ lib/
 
 ## Packages Used
 The project leverages several Flutter packages to implement its features efficiently. Here's a breakdown of the primary packages used:
+```
 
 | Package       | Version       |Purpose|
 | ------------- | ------------- || ------------- |
@@ -144,7 +145,7 @@ The project leverages several Flutter packages to implement its features efficie
 | build_runner  |^2.1.4  || Automates code generation tasks, such as JSON serialization.  | 
 | json_serializable  | ^6.0.1  || Generates JSON serialization boilerplate code based on model annotations.  | 
 
-
+```
 ## Key Components Explained
 
 Understanding the role of each component is crucial for effectively utilizing this template. Below is an in-depth explanation of the primary components within each folder.
